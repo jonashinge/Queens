@@ -4,7 +4,7 @@ import net.sf.javabdd.*;
 public class BDDExamples {
 
 	/**
-	 * Gives some examples on how the BDD package is used
+	 * Gives some examples on how the BDD package is used.
 	 */
 	public static void main(String[] args){
 		BDDFactory fact = JFactory.init(10,10);
