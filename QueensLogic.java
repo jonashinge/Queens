@@ -71,6 +71,8 @@ public class QueensLogic {
         
 ////        Left diagonals
                 
+                // small comment
+
                 //startx = size - 1 - x;
                 //starty = y;
 
