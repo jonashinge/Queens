@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use
+END
+TryVarOrder.TryThread.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TryVarOrder.TryThread.html
+END
+BuDDyFactory.GCStats.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BuDDyFactory.GCStats.html
+END
+BDDFactory.ReorderMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.ReorderMethod.html
+END
+FindBestOrder.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/FindBestOrder.html
+END
+BDDBitVector.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDBitVector.html
+END
+BDDException.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDException.html
+END
+MicroFactory.QuadOfInts.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/MicroFactory.QuadOfInts.html
+END
+BDDFactory.ReorderStats.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.ReorderStats.html
+END
+HijackingClassLoader.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/HijackingClassLoader.html
+END
+FindBestOrder.TryThread.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/FindBestOrder.TryThread.html
+END
+MicroFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/MicroFactory.html
+END
+BuDDyFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BuDDyFactory.html
+END
+BDDFactory.CacheStats.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.CacheStats.html
+END
+BDD.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDD.html
+END
+MicroFactory.TripleOfInts.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/MicroFactory.TripleOfInts.html
+END
+BDDFactory.GCStats.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.GCStats.html
+END
+MicroFactory.PairOfInts.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/MicroFactory.PairOfInts.html
+END
+CALFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/CALFactory.html
+END
+MicroFactory.bdd.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/MicroFactory.bdd.html
+END
+BDDFactory.LoadHash.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.LoadHash.html
+END
+CUDDFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/CUDDFactory.html
+END
+TypedBDDFactory.TypedBDD.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TypedBDDFactory.TypedBDD.html
+END
+TypedBDDFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TypedBDDFactory.html
+END
+TryVarOrder.BDDOperation.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TryVarOrder.BDDOperation.html
+END
+BDDFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.html
+END
+BDDDomain.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDDomain.html
+END
+BDDPairing.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDPairing.html
+END
+BDD.BDDIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDD.BDDIterator.html
+END
+TryVarOrder.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TryVarOrder.html
+END
+BDD.BDDToString.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDD.BDDToString.html
+END
+JFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/JFactory.html
+END
+JDDFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/JDDFactory.html
+END
+BDDFactory.BDDOp.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/BDDFactory.BDDOp.html
+END
+TestBDDFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/apidocs/net/sf/javabdd/class-use/TestBDDFactory.html
+END

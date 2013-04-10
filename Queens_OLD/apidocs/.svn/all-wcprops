@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/apidocs
+END
+deprecated-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/apidocs/deprecated-list.html
+END
+index-all.html
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/apidocs/index-all.html
+END
+stylesheet.css
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/apidocs/stylesheet.css
+END
+allclasses-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/apidocs/allclasses-frame.html
+END
+package-list
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/apidocs/package-list
+END
+allclasses-noframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/apidocs/allclasses-noframe.html
+END
+overview-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/apidocs/overview-tree.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/apidocs/index.html
+END
+serialized-form.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/apidocs/serialized-form.html
+END
+help-doc.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/apidocs/help-doc.html
+END
+constant-values.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/apidocs/constant-values.html
+END
