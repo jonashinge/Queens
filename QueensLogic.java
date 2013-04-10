@@ -65,7 +65,7 @@ public class QueensLogic {
                 }
 
                 while (startx<size && starty<size) {
-                    if (startx != x && starty != x)
+                    if (startx != x && starty != y)
                         mainBDD.andWith(queensBDD[x][y].imp(queensBDD[startx][starty].not().id()));
                     startx++;
                     starty++;                    
@@ -77,9 +77,14 @@ public class QueensLogic {
                 //starty = y;
 
 
-
+                // X
+                startx = x - (size - 1 - y);
+                if(startx < 0) startx = 0; // normalize
+                // Y
+                starty = y + x;
+                if(starty > size-1) starty = size-1;
                 
-                if (y < size - 1 -x ) {
+                /*if (y < size - 1 -x ) {
                     //under midten 
                     starty = 0;
                     startx = x + y;
@@ -87,15 +92,23 @@ public class QueensLogic {
                 else {
                     //midten eller over
                     startx = size - 1;
+<<<<<<< HEAD
                     starty = y-(size-x-1);
                  }
                 
 
                 while (startx >= 0 && starty < size) {
+=======
+                    starty = y-(size-x);
+                 }*/
+                
+
+                while (startx < size && starty >= 0) {
+>>>>>>> 02dad45acf3be5899e9e6d39eda6a41dfb136844
                     if (startx != x && starty != y)
                         mainBDD.andWith(queensBDD[x][y].imp(queensBDD[startx][starty].not().id()));
-                    startx--;
-                    starty++;                    
+                    startx++;
+                    starty--;                    
                 }
 
 
