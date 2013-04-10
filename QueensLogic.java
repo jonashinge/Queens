@@ -52,10 +52,8 @@ public class QueensLogic {
         
             
 //      Right diagonals
-                
                 int startx=0;
                 int starty=0;
-                /*
                 if (x<y) {
                     startx = x - x;
                     starty = y - x;
@@ -69,7 +67,7 @@ public class QueensLogic {
                         mainBDD.andWith(queensBDD[x][y].imp(queensBDD[startx][starty].not().id()));
                     startx++;
                     starty++;                    
-                }*/
+                }
         
 ////        Left diagonals
                 
@@ -86,25 +84,17 @@ public class QueensLogic {
                 
                 /*if (y < size - 1 -x ) {
                     //under midten 
-                    starty = 0;
-                    startx = x + y;
+                    starty = y - y;
+                    startx = x - y;
                 } 
                 else {
                     //midten eller over
                     startx = size - 1;
-<<<<<<< HEAD
-                    starty = y-(size-x-1);
-                 }
-                
-
-                while (startx >= 0 && starty < size) {
-=======
                     starty = y-(size-x);
                  }*/
                 
 
                 while (startx < size && starty >= 0) {
->>>>>>> 02dad45acf3be5899e9e6d39eda6a41dfb136844
                     if (startx != x && starty != y)
                         mainBDD.andWith(queensBDD[x][y].imp(queensBDD[startx][starty].not().id()));
                     startx++;
