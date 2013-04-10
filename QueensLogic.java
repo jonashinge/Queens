@@ -85,7 +85,7 @@ public class QueensLogic {
                 else {
                     //midten eller over
                     startx = size - 1;
-                    starty = y-(size-x);
+                    starty = y-(size-x-1);
                  }
                 
 
