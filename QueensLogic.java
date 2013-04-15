@@ -2,19 +2,21 @@
  * This class implements the logic behind the BDD for the n-queens problem
  * You should implement all the missing methods
  * 
- * @author Stavros Amanatidis
+ * @author Mark Gray (mgra), Jonas Hinge (jhin)
  *
  */
-import java.util.*;
 
+import java.util.*;
 import net.sf.javabdd.*;
 
 public class QueensLogic {
-    private int size = 0;
+    
+    private int size;
     private int[][] board;
-    BDDFactory fact = JFactory.init(2000000,100000);
-    BDD T = fact.one();
-    BDD F = fact.zero();
+    
+    BDDFactory fact = JFactory.init(2000000,200000);
+    
+    
     BDD queensBDD[][] = null;
     BDD mainBDD = null;
 
@@ -28,10 +30,7 @@ public class QueensLogic {
         this.board = new int[size][size];
         this.fact.setVarNum(size*size);
         this.queensBDD = new BDD[size][size];
-        
-        
-        mainBDD = T;
-        System.out.println(mainBDD.isOne());
+        mainBDD = fact.one(); //Set mainBDD to true
         
         for (int x = 0; x < size; x++)
             for (int y = 0; y < size; y++)
@@ -69,30 +68,13 @@ public class QueensLogic {
                     starty++;                    
                 }
         
-////        Left diagonals
-                
-
-                //startx = size - 1 - x;
-                //starty = y;
-
-
+//        Left diagonals
                 // X
                 startx = x - (size - 1 - y);
                 if(startx < 0) startx = 0; // normalize
                 // Y
                 starty = y + x;
                 if(starty > size-1) starty = size-1;
-                
-                /*if (y < size - 1 -x ) {
-                    //under midten 
-                    starty = y - y;
-                    startx = x - y;
-                } 
-                else {
-                    //midten eller over
-                    startx = size - 1;
-                    starty = y-(size-x);
-                 }*/
                 
 
                 while (startx < size && starty >= 0) {
@@ -101,8 +83,6 @@ public class QueensLogic {
                     startx++;
                     starty--;                    
                 }
-
-
 }
         }
     }
@@ -119,13 +99,9 @@ public class QueensLogic {
         if (board[column][row] == -1 || board[column][row] == 1) {
             return false;
         }
-       
-        
-    //    mainBDD.restrictWith(fact.ithVar(Utils.CalcXY(row, column, 5)));
+    
         mainBDD.restrictWith(queensBDD[column][row].id());
-        
-        //System.out.println(fact.ithVar(Utils.CalcXY(row, column, 5)));
-        
+                
         System.out.println(queensBDD[column][row].id());
         
         for (int x = 0; x < this.size; x++) {
@@ -134,24 +110,8 @@ public class QueensLogic {
                     board[x][y] = -1;
             }
         }
-//        
-        board[column][row] = 1;
-        
 
-        
-        //System.out.println(mainBDD.isOne());
-        
-        //Iterator BDDitt = mainBDD.iterator(F);
-        
-        
-        
-//        while (BDDitt.hasNext()) {
-//          System.out.println("hej");
-//          BDD temp = (BDD)BDDitt.next();
-//        }
-//        
-        
-     
+        board[column][row] = 1;
         return true;
     }
 }
