@@ -10,7 +10,7 @@ import java.util.*;
 import net.sf.javabdd.*;
 
 public class QueensLogic {
-    
+
     private int size;
     private int[][] board;
     
@@ -33,6 +33,11 @@ public class QueensLogic {
         this.fact.setVarNum(size*size);  //One variable per possible position
         this.queensBDD = new BDD[size][size]; 
         mainBDD = fact.one(); //Set mainBDD to true
+
+
+
+
+
         
         //Inistialize queensBDD with a variable per position
         for (int x = 0; x < size; x++)
@@ -41,9 +46,9 @@ public class QueensLogic {
 
             
 //      Iterates through all board variables to setup BDD
-        for(int y = 0; y < size ; y++){
-            for(int x = 0; x < size ; x++){
-        
+            for(int y = 0; y < size ; y++){
+                for(int x = 0; x < size ; x++){
+
         /* 
             A queen can move horizontally, vertically and diagonally. We need to build the BDD
             with rules so that it is not possible to insert a queen if there is already one
@@ -51,17 +56,17 @@ public class QueensLogic {
         */        
 
         //Row     
-                for(int compX = x+1; compX<size; compX++){
+            for(int compX = x+1; compX<size; compX++){
                     mainBDD.andWith(queensBDD[x][y].id().imp(queensBDD[compX][y].not().id())); //var(x,y) -> not var(compX,y)
                 }
                 
-        
+
         //Columns
                 for(int compY = y+1; compY<size; compY++){
                     mainBDD.andWith(queensBDD[x][y].id().imp(queensBDD[x][compY].not().id())); //var(x,y) -> not var(x,compY)
                 }
-        
-            
+
+
         //Right diagonals
 
                 int startx=0;
@@ -81,7 +86,7 @@ public class QueensLogic {
                     startx++;
                     starty++;                    
                 }
-        
+
             //Left diagonals
                 // X
                 startx = x - (size - 1 - y);
@@ -97,18 +102,34 @@ public class QueensLogic {
                     startx++;
                     starty--;                    
                 }
-}
+
+
+
+
+
+
+            }
         }
+
+    BDD ColumnBDD;
+    for(int x = 0; x < size ; x++){
+        ColumnBDD = fact.zero();
+        for(int y = 0; y < size ; y++){
+            ColumnBDD.xorWith(queensBDD[x][y].id());
+        }
+        mainBDD.andWith(ColumnBDD);
+    }        
+
     }
 
-   
+
     public int[][] getGameBoard() {
         return board;
     }
 
     public boolean insertQueen(int column, int row) {
 
-        
+
         // You cannot put a queen if the space is occupied
         if (board[column][row] == -1 || board[column][row] == 1) {
             return false;
